@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <table class="tabelabingo">
+            <tr>
+                <td class="celula" id="b1" onclick="marcar()"></td>
+                <td class="celula" id="i1" onclick="marcar()"></td>
+                <td class="celula" id="n1" onclick="marcar()"></td>
+                <td class="celula" id="g1" onclick="marcar()"></td>
+                <td class="celula" id="o1" onclick="marcar()"></td>
+            </tr>
+            <tr>
+                <td class="celula" id="b2" onclick="marcar()"></td>
+                <td class="celula" id="i2" onclick="marcar()"></td>
+                <td class="celula" id="n2" onclick="marcar()"></td>
+                <td class="celula" id="g2" onclick="marcar()"></td>
+                <td class="celula" id="o2" onclick="marcar()"></td>
+            </tr>
+            <tr>
+                <td class="celula" id="b3" onclick="marcar()"></td>
+                <td class="celula" id="i3" onclick="marcar()"></td>
+                <td class="celula celulaespecial" id="nulo"></td>
+                <td class="celula" id="g3" onclick="marcar()"></td>
+                <td class="celula" id="o3" onclick="marcar()"></td>
+            </tr>
+            <tr>
+                <td class="celula" id="b4" onclick="marcar()"></td>
+                <td class="celula" id="i4" onclick="marcar()"></td>
+                <td class="celula" id="n4" onclick="marcar()"></td>
+                <td class="celula" id="g4" onclick="marcar()"></td>
+                <td class="celula" id="o4" onclick="marcar()"></td>
+            </tr>
+            <tr>
+                <td class="celula" id="b5" onclick="marcar()"></td>
+                <td class="celula" id="i5" onclick="marcar()"></td>
+                <td class="celula" id="n5" onclick="marcar()"></td>
+                <td class="celula" id="g5" onclick="marcar()"></td>
+                <td class="celula" id="o5" onclick="marcar()"></td>
+            </tr>
+        </table>
+    </div>
+
+    <button class="botao" onclick="sortear()">Sortear</button>
+    <button class="botao" onclick="resetar()">Resetar</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
